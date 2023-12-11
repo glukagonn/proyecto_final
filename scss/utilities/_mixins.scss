@@ -1,0 +1,10 @@
+@mixin flex($height,$justify-content,$flex-wrap,$gap)
+{
+    display:flex;
+    justify-content: $justify-content ;
+    height: auto;
+    flex-wrap: wrap;
+
+    gap: 40px;
+
+}

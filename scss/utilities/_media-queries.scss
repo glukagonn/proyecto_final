@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(100% - 20px); /* Una columna en pantallas pequeñas */
+    }
+}
+
+@media screen {
+    
+}

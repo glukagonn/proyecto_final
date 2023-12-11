@@ -1,0 +1,89 @@
+main{
+    background-color: $color-principal;
+    width: 100%;
+    height:100%;
+    padding: 100px;
+    
+    .titulo{
+        text-align: center;
+        background-color: $color-secundario;
+
+        
+    }
+
+    .contenedor-flex{
+
+        @include flex(auto,space-evenly,wrap,40px)
+
+
+    }
+    .contenedor-flex2{
+        @include flex(auto,space-evenly,wrap,40px)
+
+
+    }
+
+    .form{
+        width: 400px;
+        background: #f5cfcf;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border: 4px;
+        color: white;
+        box-shadow: 7px 13px 37px;
+        @include flex(auto,left,wrap,40px)
+;
+    }
+    .controls{
+        width: 100%;
+        background: #f5cfcf;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-size: 10px;
+
+    }
+    .form .boton{
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+
+
+    
+    .card{
+        width: 350px;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .card2{
+        width: 350px;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    }
+    .card-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        font-family: $tipografia;
+        color: rgb(0, 0, 0);
+        font-size: x-large;
+        list-style: none;
+        gap: 30px;
+        @include flex(auto,center,wrap,30px)
+
+    }
